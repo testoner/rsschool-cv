@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---Header---*/
+.wrapper__header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header{
+    padding: 20px;
+    flex:1 1 100%;
+    max-width: 1200px;
+}
+/*---Content---*/
+.wrapper__content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    max-width: 1200px;
+}
+/*---Content info---*/
+.content__info{
+    margin-bottom: 20px;
+
+}
+.info__content__topic{
+    font-size: 30px;
+}
+
+.info__content__text{
+    padding-left: 50px;
+    display: flex;
+}
+.info__content__text ul{
+    padding-top: 80px;
+    padding-right: 50px;
+    font-size: 22px;
+    list-style: none;
+}
+
+.info__content__text img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+/*---Summary---*/
+.content__summary{
+    margin-bottom: 20px;    
+}
+
+.summary__title{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.summary__text{
+    padding:0 50px 0 50px;
+    font-size: 22px;
+}
+
+/*---Skills---*/
+.content__skills{
+ margin-bottom: 20px;
+}
+
+.skills__title{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.skills__text{
+    padding-left: 50px;
+    font-size: 22px;
+}
+
+.skills__text ul ul{
+    padding-left: 35px;
+}
+
+/*---Sample code---*/
+.content__code{
+    margin-bottom: 20px;
+}
+
+.code__title{
+    font-size: 30px;
+}
+
+.code__text{
+    padding-left: 50px;
+    font-size: 22px;
+}
+/*---Experience---*/
+.content__exp{
+    margin-bottom: 20px;
+}
+
+.exp__title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.exp__text{
+    padding-left: 50px;
+    font-size: 22px;
+}
+/*---Education---*/
+.content__education{
+    margin-bottom: 20px;
+}
+
+.education__title{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.education__text{
+    padding-left: 50px;
+    font-size: 22px;
+}
+/*---Other---*/
+.content__other{
+    margin-bottom: 20px;
+}
+
+.other__title{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.other__text{
+    padding-left: 50px;
+    font-size: 22px; 
+}
+/*---Footer---*/
+.wrapper__footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer{
+    padding: 20px;
+    flex:1 1 100%;
+    max-width: 1200px; 
+}
+
+.footer__mygithub a, .footer__rsschool a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.footer__mygithub a:hover , .footer__rsschool a:hover {
+    font-size: 22px;
+    color:white;
+}
